@@ -20,6 +20,6 @@
         </environment>
     </environments>
     <mappers>
-        <package name="com.hzhu.mapper"/>
+        <package name="com.hzhu.dao"/>
     </mappers>
 </configuration>

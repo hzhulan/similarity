@@ -1,6 +1,6 @@
 package com.hzhu.utils;
 
-import com.hzhu.mapper.LubanMapper;
+import com.hzhu.dao.CarMapper;
 import com.hzhu.similarity.IKAnalysisUtils;
 import org.apache.ibatis.session.SqlSession;
 import org.slf4j.Logger;
@@ -51,7 +51,7 @@ public class ExtractDic {
 
     public void extractWord() {
         SqlSession sqlSession = new MybatisUtils().getSqlSession();
-        LubanMapper mapper = sqlSession.getMapper(LubanMapper.class);
+        CarMapper mapper = sqlSession.getMapper(CarMapper.class);
         List<String> modelNames = mapper.getModelName();
         StringBuilder sb = new StringBuilder();
         for (String modelName : modelNames) {

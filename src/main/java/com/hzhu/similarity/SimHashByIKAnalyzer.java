@@ -1,7 +1,7 @@
 package com.hzhu.similarity;
 
 import com.hzhu.bean.SimilarityDto;
-import com.hzhu.mapper.LubanMapper;
+import com.hzhu.dao.CarMapper;
 import com.hzhu.utils.ImportantWord;
 import com.hzhu.utils.MybatisUtils;
 import org.apache.commons.lang3.StringUtils;
@@ -248,7 +248,7 @@ public class SimHashByIKAnalyzer {
         String addModel = "2016款 2.0T 65周年限量型plus";
 
         SqlSession sqlSession = new MybatisUtils().getSqlSession();
-        LubanMapper mapper = sqlSession.getMapper(LubanMapper.class);
+        CarMapper mapper = sqlSession.getMapper(CarMapper.class);
         List<String> modelNames = mapper.getModelName();
 
         List<SimilarityDto> similarity = new SimHashByIKAnalyzer().getSimilarity(addModel, modelNames);
