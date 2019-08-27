@@ -1,0 +1,56 @@
+<root>
+    <word value="自动" weight="3">
+        <item>AT</item>
+        <item>无级变速箱</item>
+        <item>CVT</item>
+        <item>DCT</item>
+        <item>DSG</item>
+        <item>ISR</item>
+        <item>DCT</item>
+        <item>E-CVT</item>
+        <item>双离合</item>
+    </word>
+    <word value="手自一体" weight="3">
+        <item>AMT</item>
+        <item>序列变速箱</item>
+        <item>机械自动</item>
+    </word>
+    <word value="手动" weight="3">
+        <item>MT</item>
+    </word>
+    <word value="两驱" weight="3">
+        <item>4*2</item>
+        <item>后轮驱动</item>
+        <item>后驱</item>
+        <item>前轮驱动</item>
+        <item>前驱</item>
+    </word>
+    <word value="四驱" weight="3">
+        <item>4*4</item>
+    </word>
+    <word value="国五" weight="2">
+        <item>国Ⅴ</item>
+        <item>国V</item>
+    </word>
+    <word value="国六" weight="2">
+        <item>国Ⅵ</item>
+        <item>国VI</item>
+    </word>
+    <word value="豪华" weight="2"></word>
+    <word value="标准" weight="2"></word>
+    <word value="基础" weight="2"></word>
+    <word value="舒适" weight="2"></word>
+    <word value="尊贵" weight="2"></word>
+    <word value="尊享" weight="2"></word>
+    <word value="精英" weight="2"></word>
+    <word value="商务" weight="2"></word>
+    <word value="加长" weight="2"></word>
+    <word value="汽油" weight="2"></word>
+    <word value="柴油" weight="2"></word>
+    <word value="天然气" weight="2"></word>
+    <word value="运动" weight="2"></word>
+    <word value="旗舰" weight="2"></word>
+    <word value="技术" weight="2"></word>
+    <word value="领先" weight="2"></word>
+
+</root>
