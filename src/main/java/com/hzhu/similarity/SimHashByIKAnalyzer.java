@@ -245,7 +245,7 @@ public class SimHashByIKAnalyzer {
 
     public static void main(String[] args) {
 
-        String addModel = "2016款 2.0T 65周年限量型plus";
+        String addModel = "2004款 1.6L MT标准型";
 
         SqlSession sqlSession = new MybatisUtils().getSqlSession();
         CarMapper mapper = sqlSession.getMapper(CarMapper.class);
